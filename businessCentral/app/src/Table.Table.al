@@ -18,7 +18,6 @@ table 82561 "ADLSE Table"
     {
         field(1; "Table ID"; Integer)
         {
-            AllowInCustomizations = AsReadOnly;
             Editable = false;
             Caption = 'Table ID';
             Access = Internal;
@@ -55,7 +54,6 @@ table 82561 "ADLSE Table"
         field(15; ExportFileNumber; Integer)
         {
             Caption = 'Export File Number';
-            AllowInCustomizations = AsReadOnly;
             ObsoleteState = Pending;
             ObsoleteReason = 'Open Mirroring now uses GUIDs for file names instead of sequential numbering.';
             Access = Internal;

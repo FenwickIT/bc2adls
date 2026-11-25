@@ -18,7 +18,6 @@ table 82572 "ADLSE Companies Table"
     {
         field(1; "Table ID"; Integer)
         {
-            AllowInCustomizations = AsReadOnly;
             Editable = false;
             Caption = 'Table ID';
             ToolTip = 'Specifies the ID of the table to be exported.';

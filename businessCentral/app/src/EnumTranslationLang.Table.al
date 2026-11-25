@@ -20,7 +20,6 @@ table 82568 "ADLSE Enum Translation Lang"
         }
         field(2; "Table Id"; Integer)
         {
-            AllowInCustomizations = AsReadOnly;
             DataClassification = SystemMetadata;
             Caption = 'Table Id';
         }
@@ -32,7 +31,6 @@ table 82568 "ADLSE Enum Translation Lang"
         }
         field(4; "Field Id"; Integer)
         {
-            AllowInCustomizations = AsReadOnly;
             DataClassification = SystemMetadata;
             Caption = 'Field Id';
         }
@@ -44,7 +42,6 @@ table 82568 "ADLSE Enum Translation Lang"
         }
         field(6; "Enum Value Id"; Integer)
         {
-            AllowInCustomizations = AsReadOnly;
             DataClassification = SystemMetadata;
             Caption = 'Enum Index';
         }
